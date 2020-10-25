@@ -28,7 +28,4 @@ steps:
     includeRootFolder: false
 - task: PublishBuildArtifacts@1
 
-composer install --no-interaction --working-dir=pkgs
-
-composer install --no-interaction --working-dir='$(system.defaultWorkingDirectory)/pkgs'
 
